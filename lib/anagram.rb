@@ -8,7 +8,7 @@ class Anagram
   end
   
   def match(compare_words)
-    compare_words.select {|compare_word| compare_word.sort == word.sort}
+    compare_words.select {|compare_word| compare_word.split("").sort == word.split("").sort}
   end  
 
 end   
