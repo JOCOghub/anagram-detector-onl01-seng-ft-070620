@@ -5,6 +5,9 @@ class Anagram
   def initialize emails
     @emails = emails  
   end
-
+  
+  def match
+    
+  end  
 
 end   
